@@ -326,10 +326,10 @@ def populate():  # pragma: no coverage: not using this atm
 #        print("OperationalError! %s") % ope
         #pass
     session.flush()
-    #try:
-#        transaction.commit()
-    #except:
-    #    pass
+    try:
+        transaction.commit()
+    except:
+       pass
 
 
 def initialize_sql(engine):
