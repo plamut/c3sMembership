@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: c3smembership 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-09-09 13:30+0200\n"
-"PO-Revision-Date: 2013-09-24 15:07+0100\n"
+"PO-Revision-Date: 2013-09-24 17:04+0100\n"
 "Last-Translator: Peter Lamut <peter.lamut@niteoweb.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: c3smembership/views.py:260
 msgid "Success. Load your PDF!"
-msgstr "Uspeh. Naložite svoj PDF dokument!"
+msgstr "Uspešno. Prenesite svoj PDF dokument!"
 
 #: c3smembership/views.py:340
 msgid "Austria"
@@ -696,16 +696,16 @@ msgstr "Pošlji e-pošto"
 #. Default: C3S Membership Application: Email Verification
 #: c3smembership/templates/verify-mail.pt:9
 msgid "verify-email-title"
-msgstr ""
+msgstr "Vloga za članstvo v C3S: verifikacija e-pošte"
 
 #. Default: Your Email has been confirmed, ${firstname} ${lastname}!
 #: c3smembership/templates/verify-mail.pt:14
 msgid "verified-email-headline"
-msgstr ""
+msgstr "Vaš e-poštni naslov je bil potrjen, ${firstname} ${lastname}!"
 
 #. Default: Now that your email address has been confirmed, you may download your
 #. PDF.
 #: c3smembership/templates/verify-mail.pt:15
 msgid "verified-email-paragraph"
-msgstr ""
+msgstr "Zdaj, ko je vaš e-poštni naslov potrjen, lahko prenesete svoj PDF dokument."
 
