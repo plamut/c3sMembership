@@ -382,7 +382,6 @@ def show_success_pdf(request):
         appstruct = request.session['appstruct']
         the_mail = accountant_mail(appstruct)
         mailer.send(the_mail)
-        # print the_mail.body
 
         return generate_pdf(request.session['appstruct'])
     # 'else': send user to the form
@@ -423,7 +422,6 @@ https://pretest.c3s.cc/verify/%s/%s
        appstruct['email_confirm_code'])
         )
         mailer.send(the_mail)
-        # print(the_mail.body)
 
         return {
             'firstname': appstruct['firstname'],
