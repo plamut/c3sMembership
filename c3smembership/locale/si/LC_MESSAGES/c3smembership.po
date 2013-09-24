@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: c3smembership 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-09-09 13:30+0200\n"
-"PO-Revision-Date: 2013-09-24 17:04+0100\n"
+"PO-Revision-Date: 2013-09-24 18:15+0100\n"
 "Last-Translator: Peter Lamut <peter.lamut@niteoweb.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -622,7 +622,7 @@ msgstr "označena z zvezdico"
 #. Default: All questions ${with_an_asterisk} must be answered:
 #: c3smembership/templates/join.pt:32
 msgid "join-form-answer-all"
-msgstr "Polja ${with_an_asterisk} so obvezna:"
+msgstr "Polja, ${with_an_asterisk}, so obvezna:"
 
 #. Default: The Fine Print
 #: c3smembership/templates/join.pt:58
