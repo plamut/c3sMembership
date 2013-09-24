@@ -23,7 +23,9 @@
       <a href="/?en"><img src="static/images/en.png" title="English"
 				   alt="switch to English language" /></a>
       <a href="/?de"><img src="static/images/de.png" title="Deutsch"
-				   alt="auf deutsche Sprache umschalten" /></a>
+           alt="auf deutsche Sprache umschalten" /></a>
+      <a href="/?si"><img src="static/images/si.png" title="Slovensko"
+				   alt="preklopite na slovenski jezik" /></a>
     </div>
     <h2 i18n:translate="join-form-headline" class="deform">Application for Membership of the European Cooperative 'Cultural Commons Collecting Society SCE Limited' (C3S SCE)</h2>
     <p i18n:translate="join-form-fill-verify-print-send">

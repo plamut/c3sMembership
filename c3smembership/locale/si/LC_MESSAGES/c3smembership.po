@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: c3smembership 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-09-09 13:30+0200\n"
-"PO-Revision-Date: 2013-09-20 00:05+0100\n"
+"PO-Revision-Date: 2013-09-24 15:07+0100\n"
 "Last-Translator: Peter Lamut <peter.lamut@niteoweb.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: c3smembership/views.py:260
 msgid "Success. Load your PDF!"
-msgstr ""
+msgstr "Uspeh. Naložite svoj PDF dokument!"
 
 #: c3smembership/views.py:340
 msgid "Austria"
@@ -138,27 +138,27 @@ msgstr "Švedska"
 
 #: c3smembership/views.py:368
 msgid "other"
-msgstr ""
+msgstr "druga"
 
 #: c3smembership/views.py:390
 msgid "(Real) First Name"
-msgstr ""
+msgstr "Ime"
 
 #: c3smembership/views.py:395
 msgid "(Real) Last Name"
-msgstr ""
+msgstr "Priimek"
 
 #: c3smembership/views.py:400
 msgid "Email"
-msgstr ""
+msgstr "E-pošta"
 
 #: c3smembership/views.py:406
 msgid "Street & No."
-msgstr ""
+msgstr "Ulica in hišna št."
 
 #: c3smembership/views.py:411
 msgid "address cont'd"
-msgstr ""
+msgstr "Naslov (nadalj.)"
 
 #: c3smembership/views.py:415
 msgid "Post Code"
@@ -166,7 +166,7 @@ msgstr "Poštna številka"
 
 #: c3smembership/views.py:420
 msgid "City"
-msgstr ""
+msgstr "Mesto"
 
 #: c3smembership/views.py:429
 msgid "Country"
@@ -182,27 +182,27 @@ msgstr "Ne"
 
 #: c3smembership/views.py:484
 msgid "Currently, I am a member of another collecting society."
-msgstr ""
+msgstr "Trenutno sem že član drugih združenj avtorjev."
 
 #: c3smembership/views.py:493
 msgid "If so, which one?"
-msgstr ""
+msgstr "Če da, katerih?"
 
 #: c3smembership/views.py:502
 msgid "I am considering to join C3S as a supporting member only. This option is also available to members of other collecting societies without quitting those."
-msgstr ""
+msgstr "Razmišljam, da bi se pridružil združenju C3S zgolj kot podporni član. Ta možnost je namenjena tudi članom drugih avtorskih skupnosti ne da bi morali te skupnosti zapustiti."
 
 #: c3smembership/views.py:512
 msgid "Number of Shares (50€ each"
-msgstr ""
+msgstr "Število članskih deležev (50€ vsak)"
 
 #: c3smembership/views.py:517
 msgid "You need at least one share of 50 Euro."
-msgstr ""
+msgstr "Vzeti morate najmanj en članski delež (50 EUR)"
 
 #: c3smembership/views.py:518
 msgid "You may choose 60 shares at most. (3000 Euro)"
-msgstr ""
+msgstr "Vzamete lahko lahko največ 60 članskih deležev (3000 EUR)"
 
 #: c3smembership/views.py:526
 msgid "Date of Birth"
@@ -210,11 +210,11 @@ msgstr "Datum rojstva"
 
 #: c3smembership/views.py:533
 msgid "${val} is earlier than earliest date ${min}"
-msgstr ""
+msgstr "${val} je pred najbolj zgodnjim datumom ${min}"
 
 #: c3smembership/views.py:534
 msgid "${val} is later than latest date ${max}"
-msgstr ""
+msgstr "${val} je za najbolj poznim datumom ${max}"
 
 #: c3smembership/views.py:592
 msgid "Submit"
@@ -226,7 +226,7 @@ msgstr "Ponastavi"
 
 #: c3smembership/views.py:617
 msgid "Please note: There were errors, please check the form below."
-msgstr ""
+msgstr "Pri vnosu je prišlo do napak, prosimo, preglejte spodnji obrazec"
 
 #. Default: Membership Application for Cultural Commons Collecting Society (C3S
 #. SCE)
@@ -237,18 +237,18 @@ msgstr ""
 #. Default: C3S Membership Application: Check your email
 #: c3smembership/templates/check-mail.pt:9
 msgid "check-email-title"
-msgstr ""
+msgstr "Vloga za članstvo v C3S: preverite vašo e-pošto"
 
 #. Default: An email was sent, ${firstname} ${lastname}!
 #: c3smembership/templates/check-mail.pt:12
 msgid "check-email-headline"
-msgstr ""
+msgstr "E-pošta je bila poslana, ${firstname} ${lastname}!"
 
 #. Default: You will receive an email from noreply@c3s.cc with a link. Please check
 #. your email!
 #: c3smembership/templates/check-mail.pt:13
 msgid "check-email-paragraph-check-email"
-msgstr ""
+msgstr "Od noreply@c3s.cc boste prejeli sporočilo  s povezavo. Prosimo, preverite svojo e-pošto!"
 
 #. Default: Data Protection Declaration
 #: c3smembership/templates/disclaimer.pt:9
@@ -600,98 +600,98 @@ msgstr ""
 #. Default: Join Cultural Commons Collecting Society (C3S)
 #: c3smembership/templates/join.pt:14
 msgid "join-form-title"
-msgstr ""
+msgstr "Pridružite se združenju Cultural Commons Collecting Society (C3S SCE)"
 
 #. Default: Application for Membership of the European Cooperative 'Cultural
 #. Commons Collecting Society SCE Limited' (C3S SCE)
 #: c3smembership/templates/join.pt:28
 msgid "join-form-headline"
-msgstr ""
+msgstr "Vloga za članstvo v evropskem združenju 'Cultural Commons Collecting Society SCE Limited' (C3S SCE)"
 
 #. Default: Please fill out the form, check your email for a verification code,
 #. print your PDF, sign and send back.
 #: c3smembership/templates/join.pt:29
 msgid "join-form-fill-verify-print-send"
-msgstr ""
+msgstr "Prosimo, izpolnite vlogo in na vaš e-poštni naslov vam bomo poslali verifikacijsko kodo. Nato natisnite vlogo v PDF obliki in nam jo podpisano pošljite nazaj."
 
 #. Default: with an asterisk
 #: c3smembership/templates/join.pt:33
 msgid "with_an_asterisk"
-msgstr ""
+msgstr "označena z zvezdico"
 
 #. Default: All questions ${with_an_asterisk} must be answered:
 #: c3smembership/templates/join.pt:32
 msgid "join-form-answer-all"
-msgstr ""
+msgstr "Polja ${with_an_asterisk} so obvezna:"
 
 #. Default: The Fine Print
 #: c3smembership/templates/join.pt:58
 msgid "join-form-headline-fine-print"
-msgstr ""
+msgstr "Drobni tisk"
 
 #. Default: The C3S SCE statute
 #: c3smembership/templates/join.pt:60
 msgid "join-form-statute-title"
-msgstr ""
+msgstr "Statut združenja C3S SCE"
 
 #. Default: Disclaimer (Data Protection)
 #: c3smembership/templates/join.pt:65
 msgid "join-form-disclaimer-title"
-msgstr ""
+msgstr "Izjava o varovanju podatkov"
 
 #. Default: Frequently Asked Questions
 #: c3smembership/templates/join.pt:70
 msgid "join-form-faq-title"
-msgstr ""
+msgstr "Pogosto zastavljena vprašanja"
 
 #. Default: C3S Membership Application: Success
 #: c3smembership/templates/success.pt:9
 msgid "success-title"
-msgstr ""
+msgstr "Vloga za članstvo v C3S: Uspeh"
 
 #. Default: That worked,
 #: c3smembership/templates/success.pt:12
 msgid "success-headline-thanks"
-msgstr ""
+msgstr "To je delovalo,"
 
 #. Default: What happens next: You need to check the information below to be
 #. correct, receive an email to verify your address, download the form with your
 #. data, print out the form, sign it and send it back to us.
 #: c3smembership/templates/success.pt:13
 msgid "success-paragraph-thanks"
-msgstr ""
+msgstr "Kaj sledi: preveriti morate, ali so spodnji podatki pravilni, prejeti elektronsko sporočilo za verifikacijo svojega e-poštnega naslova, prenesti morate vlogo, izpolnjeno z vašimi podatki, jo natisniti in nam jo podpisano poslati nazaj."
 
 #. Default: Your data we received
 #: c3smembership/templates/success.pt:18
 msgid "success-headline-data-received"
-msgstr ""
+msgstr "Podatki o vas, kot smo jih prejeli"
 
 #. Default: please use the form again
 #: c3smembership/templates/success.pt:52
 msgid "revisit-the-form"
-msgstr ""
+msgstr "prosimo, ponovno uporabite obrazec"
 
 #. Default: In case there are errors or you want to change details <dynamic
 #. element>. If all information above is correct...
 #: c3smembership/templates/success.pt:50
 msgid "success-paragraph-change-details"
-msgstr ""
+msgstr "V primeru napak oziroma če želiti spremeniti svoje podatke, <dynamic element>. Če so zgornji podatki pravilni ..."
 
 #. Default: Next: verify your email
 #: c3smembership/templates/success.pt:55
 msgid "success-headline-verify-email"
-msgstr ""
+msgstr "Sledi: verificirajte svoj e-poštni naslov"
 
 #. Default: Click the button to have an email sent to your account. Then, check
 #. your email and use the link we send you to get your PDF. This needs to be
 #. printed out, signed, and sent back to us.
 #: c3smembership/templates/success.pt:56
 msgid "success-paragraph-verify-email"
-msgstr ""
+msgstr "Pritisnite gumb, da vam pošljemo sporočilo na vaš e-poštni račun. Nato preglejte svojo e-pošto in uporabite povezavo, ki vam jo bomo poslali v sporočilu, da prenesete vašo vlogo v PDF obliki. Vlogo morate natisniti in nam jo podpisano poslati nazaj."
 
 #: c3smembership/templates/success.pt:63
 msgid "Send Mail"
-msgstr ""
+msgstr "Pošlji e-pošto"
 
 #. Default: C3S Membership Application: Email Verification
 #: c3smembership/templates/verify-mail.pt:9

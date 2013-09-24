@@ -47,6 +47,22 @@
       Fördermitglied?: ${'ja' if (request.session['appstruct']['invest_member'] == 'yes') else 'nein'} <br />
       Anzahl Anteile: ${request.session['appstruct']['num_shares']} <br />
     </p>
+
+    <p tal:condition="request.session['appstruct']['_LOCALE_'] == 'si'"> <!-- slovenian -->
+      Ime: ${firstname}<br />
+      Priimek: ${lastname}<br />
+      E-pošta: ${request.session['appstruct']['email']} <br />
+      Datum rojstva: ${request.session['appstruct']['date_of_birth']} <br />
+      Ulica, hišna št.: ${request.session['appstruct']['address1']} <br />
+      Naslov (nadalj.): ${request.session['appstruct']['address2']} <br />
+      Poštna številka: ${request.session['appstruct']['postcode']} <br />
+      Kraj: ${request.session['appstruct']['city']} <br />
+      Država: ${request.session['appstruct']['country']} <br />
+      Član tudi drugih združenj avtorjev: ${'ja' if (request.session['appstruct']['member_of_colsoc'] == 'yes') else 'nein'} <br />
+      Katerih? ${request.session['appstruct']['name_of_colsoc']} <br />
+      Podporni član?: ${'ja' if (request.session['appstruct']['invest_member'] == 'yes') else 'nein'} <br />
+      Število članskih deležev: ${request.session['appstruct']['num_shares']} <br />
+    </p>
     <p i18n:translate="success-paragraph-change-details">
       In case there are errors or you want to change details
       <a href="${request.route_url('join')}" i18n:translate="revisit-the-form">please use the form again</a>.
