@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: c3smembership 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-09-09 13:30+0200\n"
-"PO-Revision-Date: 2013-09-24 18:15+0100\n"
+"PO-Revision-Date: 2013-09-25 16:12+0100\n"
 "Last-Translator: Peter Lamut <peter.lamut@niteoweb.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,11 +18,11 @@ msgstr ""
 
 #: c3smembership/views.py:154
 msgid "C3S: confirm your email address and load your PDF"
-msgstr ""
+msgstr "potrdite svoj e-poštni naslov in prenesite vlogo v PDF obliki"
 
 #: c3smembership/views.py:260
 msgid "Success. Load your PDF!"
-msgstr "Uspešno. Prenesite svoj PDF dokument!"
+msgstr "Uspešno. Prenesite svojo vlogo v PDF obliki!"
 
 #: c3smembership/views.py:340
 msgid "Austria"
@@ -232,7 +232,7 @@ msgstr "Pri vnosu je prišlo do napak, prosimo, preglejte spodnji obrazec"
 #. SCE)
 #: c3smembership/templates/base.pt:7
 msgid "membership-form-title"
-msgstr ""
+msgstr "Vloga za članstvo v združenju Cultural Commons Collecting Society (C3S SCE)"
 
 #. Default: C3S Membership Application: Check your email
 #: c3smembership/templates/check-mail.pt:9
@@ -253,7 +253,7 @@ msgstr "Od noreply@c3s.cc boste prejeli sporočilo  s povezavo. Prosimo, preveri
 #. Default: Data Protection Declaration
 #: c3smembership/templates/disclaimer.pt:9
 msgid "disclaimer-title"
-msgstr ""
+msgstr "Izjava o varovanju podatkov"
 
 #. Default: We will use the data you have provided in the Declaration of Intent to
 #. join the Cultural Commons Collecting Society (C3S) in order to ask you whether
@@ -262,7 +262,7 @@ msgstr ""
 #. you wish to withdraw your declaration.
 #: c3smembership/templates/disclaimer.pt:18
 msgid "disclaimer-v2-paragraph-1"
-msgstr ""
+msgstr "Podatke, ki ste jih navedli v vlogi za včlanitev v združenje Cultural Commons Collecting Society (C3S), bomo uporabili, da vas vprašamo za potrditev, ali resnično želite postati naš član. Če se ne želite včlaniti, bo vaša vloga izbrisana. Izbrisana bo tudi v primeru, če boste naknadno imeli pomisleke in nas pisno obvestili, da želite svojo vlogo umakniti."
 
 #. Default: In order to prevent falsifications, we will ask you not only for your
 #. name, but also for your e-mail and date of birth. Of course we will only use
@@ -273,12 +273,12 @@ msgstr ""
 #. of the Federal Data Protection Act.
 #: c3smembership/templates/disclaimer.pt:21
 msgid "disclaimer-v2-paragraph-2"
-msgstr ""
+msgstr "Za preprečevanje lažnih prijav bomo od vas zahtevali ne samo ime, temveč tudi e-poštni naslov in datum rojstva. Seveda bomo vaše podatke uporabili zgolj za namen procesa ustanavljanja C3S in jih ne bomo niti posredovali tretjim osebam niti uporabili za druge namene ali objavili. Podatke bo v Nemčiji hranilo registrirano združenje OpenMusicContest.org kot zastopnik iniciative za ustanovitev C3S, in sicer v skladu zahtevami zveznega zakona o varovanju podatkov (Bundesdatenschutzgesetz)."
 
 #. Default: By sending an e-mail to
 #: c3smembership/templates/disclaimer.pt:24
 msgid "disclaimer-paragraph-3-part1"
-msgstr ""
+msgstr "S pošiljanjem e-pošte na naslov"
 
 #. Default: you may order your data to be deleted at any time, and without giving
 #. reasons. Upon request to the same address, you may also ask for information
@@ -287,27 +287,27 @@ msgstr ""
 #. the collecting society.
 #: c3smembership/templates/disclaimer.pt:30
 msgid "disclaimer-paragraph-3-part2"
-msgstr ""
+msgstr "lahko kadarkoli zahtevate izbris vaših podatkov, ne da bi vam bilo potrebno navajati razloge za to. Na istem naslovu lahko tudi zahtevate informacije o podatkih, ki smo jih shranili o vas. Bo pa izbris vaših podatkov imel za posledico to, da ne bomo mogli stopiti v stik z vami v primeru, da bi se želeli pridružiti združenju avtorjev."
 
 #. Default: The Cultural Commons Collecting Society is a project of:
 #: c3smembership/templates/disclaimer.pt:33
 msgid "disclaimer-paragraph-4"
-msgstr ""
+msgstr "The Cultural Commons Collecting Society je projekt od:"
 
 #. Default: Authorised to represent:
 #: c3smembership/templates/disclaimer.pt:44
 msgid "disclaimer-paragraph-5"
-msgstr ""
+msgstr "Pooblaščeni za zastopanje:"
 
 #. Default: imprint of the OpenMusicContest.org e.V.
 #: c3smembership/templates/disclaimer.pt:56
 msgid "OMC-imprint-link-title"
-msgstr ""
+msgstr "vizitko OpenMusicContest.org e.V."
 
 #. Default: See the ${OMC-imprint-link-title} for more information.
 #: c3smembership/templates/disclaimer.pt:55
 msgid "disclaimer-paragraph-6"
-msgstr ""
+msgstr "Oglejte si ${OMC-imprint-link-title} za več informacij."
 
 #. Default: C3S SCE Membership: FAQ
 #: c3smembership/templates/faq.pt:9
@@ -707,5 +707,5 @@ msgstr "Vaš e-poštni naslov je bil potrjen, ${firstname} ${lastname}!"
 #. PDF.
 #: c3smembership/templates/verify-mail.pt:15
 msgid "verified-email-paragraph"
-msgstr "Zdaj, ko je vaš e-poštni naslov potrjen, lahko prenesete svoj PDF dokument."
+msgstr "Zdaj, ko je vaš e-poštni naslov potrjen, lahko prenesete svojo vlogo v PDF obliki."
 
