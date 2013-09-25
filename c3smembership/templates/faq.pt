@@ -14,6 +14,8 @@
 			     alt="switch to English language" /></a>
       <a href="/faq?de"><img src="static/images/de.png" title="Deutsch"
 			     alt="auf deutsche Sprache umschalten" /></a>
+      <a href="/faq?si"><img src="static/images/si.png" title="Slovensko"
+           alt="preklopite na slovenski jezik" /></a>
     </div>
     <h3 i18n:translate="faq-headline-why" class="deform">Why is it that C3S wants me to sign?</h3>
     <p i18n:translate="faq-paragraph-why">
